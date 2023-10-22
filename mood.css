@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(135deg , rgb(131, 138, 241) , rgb(141, 223, 133) , rgba(58, 235, 248, 0.712));
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    
+}
