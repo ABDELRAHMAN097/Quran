@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quran</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="mood.css">
     <script src="main.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <div class="text">
-            <h1>music player</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo expedita quidem quis ut consectetur nobis!</p>
-            <hr>
-            <h3>this using javascript</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium optio dolorem sed.</p>
-        </div>
-        <div class="content">
-            <div class="img">
-                <img src="/asets/image/Untitled design (1).png" alt="">
+    <div class="player">
+        <div class="wrapper">
+            <div class="details">
+                <div class="now-playing">Playing x OF y</div>
+                <div class="track-art"></div>
+                <div class="track-name">Track Name</div>
+                <div class="track-artist">Track Artist</div>
+            </div>
+            <div class="slider-container">
+                <div class="aurrent-time">00:00</div>
+                <input type="range" min="1" max="100" value="0" class="seek-slider" onchange="seekTo()">
             </div>
         </div>
     </div>
+       
 </body>
 </html>
