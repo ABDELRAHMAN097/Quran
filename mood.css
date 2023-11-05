@@ -54,3 +54,39 @@
     align-items: center;
     margin-bottom: 30px;
 }
+.active{
+    color: black;
+}
+.repeat-track,
+.next-track,
+.playpause-track,
+.prev-track,
+.random-track{
+    padding: 20px;
+    opacity: 0.8;
+    transition: opacity .2s;
+}
+
+.repeat-track:hover,
+.next-track:hover,
+.playpause-track:hover,
+.prev-track:hover,
+.random-track:hover{
+    opacity: 1.0;
+}
+.slider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seek-slider,
+.value_slider{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: yellow;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
